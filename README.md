@@ -87,6 +87,14 @@ where date(tpep_dropoff_datetime) between '2024-03-01' and '2024-03-15';
 
 **C. GCP Bucket**
 
+### Question 8
+
+**Answer: False**
+
+### Question 9
+
+**0 MB, because it's only using metadata and not actually querying the data.**
+
 
 
 
