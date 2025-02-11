@@ -57,3 +57,16 @@ where fare_amount = 0;
 ```
 
 **Answer: 8,333 records** 
+
+### Question 5
+
+```
+create or replace table `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_partition_cluster`
+partition by date(tpep_dropoff_datetime)
+cluster by VendorID as 
+select * from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular`;
+```
+
+**Answer: A. Partition on `tpep_dropoff_datetime` and cluster on `VendorID`
+
+
