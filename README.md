@@ -11,6 +11,10 @@ OPTIONS (
   uris = ['gs://kap-kestra-dezc-bucket/yellow_tripdata_2024-*.parquet']
 );
 
+-- Create a regular table from external table
+CREATE OR REPLACE TABLE `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular` AS
+SELECT * FROM `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata`;
+
 -- Question 1
 
 select count(1) as num_rows
@@ -18,3 +22,15 @@ from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata`;
 ```
 
 **Answer: 20,332,093**
+
+### Question 2
+
+```
+select count(distinct PULocationID) as `Unique PU Location IDs`
+from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata`;
+
+select count(distinct PULocationID) as `Unique PU Location IDs`
+from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular`;
+```
+
+**Answer: 0B and 155.12 MB**
