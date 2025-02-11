@@ -83,4 +83,10 @@ where date(tpep_dropoff_datetime) between '2024-03-01' and '2024-03-15';
 
 **Answer: B. 310.24 MB and 26.48 MB**
 
+### Question 7 
+
+**C. GCP Bucket**
+
+
+
 
