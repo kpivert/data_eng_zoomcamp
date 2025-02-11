@@ -69,4 +69,18 @@ select * from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular`;
 
 **Answer: A. Partition on `tpep_dropoff_datetime` and cluster on `VendorID`
 
+### Question 6
+
+```
+select distinct(VendorID) 
+from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular`
+where date(tpep_dropoff_datetime) between '2024-03-01' and '2024-03-15';
+
+select distinct(VendorID)
+from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_partition_cluster`
+where date(tpep_dropoff_datetime) between '2024-03-01' and '2024-03-15';
+```
+
+**Answer: 310.24 MB and 26.48 MB**
+
 
