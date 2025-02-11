@@ -34,3 +34,19 @@ from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular`;
 ```
 
 **Answer: 0B and 155.12 MB**
+
+
+### Question 3
+
+```
+select PULocationID 
+from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular`;
+
+select PULocationID, DOLocationID
+from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular`;
+```
+
+**Answer: A. BigQuery is a columnar database...**
+
+### Question 4
+
