@@ -81,6 +81,6 @@ from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_partition_cluster`
 where date(tpep_dropoff_datetime) between '2024-03-01' and '2024-03-15';
 ```
 
-**Answer: 310.24 MB and 26.48 MB**
+**Answer: B. 310.24 MB and 26.48 MB**
 
 
