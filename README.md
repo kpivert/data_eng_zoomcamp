@@ -50,3 +50,10 @@ from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular`;
 
 ### Question 4
 
+```
+select count(1) as `0 Fares`
+from `dezc-kestra.de_zoomcamp.module_3_hw_yellow_tripdata_regular`
+where fare_amount = 0;
+```
+
+**Answer: 8,333 records** 
