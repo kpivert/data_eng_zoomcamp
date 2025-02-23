@@ -1,5 +1,16 @@
 # data_eng_zoomcamp
-Homework for January 2025 Cohort of Data Engineering Zoomcamp 
+Homework for January 2025 Cohort of Data Engineering Zoomcamp \
+
+## Week 4
+
+### Question 1
+
+`select * from myproject.my_nyc_tripdata.ext_green_taxi`
+
+### Question 2
+
+
+
 
 ## Week 3
 
