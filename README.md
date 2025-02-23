@@ -9,6 +9,7 @@ Homework for January 2025 Cohort of Data Engineering Zoomcamp \
 
 ### Question 2
 
+Update the WHERE clause to pickup_datetime >= CURRENT_DATE - INTERVAL '{{ env_var("DAYS_BACK", var("days_back", "30")) }}' DAY
 
 
 
