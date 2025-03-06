@@ -11,6 +11,10 @@ spark.version = 3.4.4
 
 23M -> 25MB
 
+### Question 3
+
+128893 -> 125,567
+
 ## Week 4
 
 ### Question 1
