@@ -15,6 +15,10 @@ spark.version = 3.4.4
 
 128893 -> 125,567
 
+### Question 4
+
+162.61777777777777
+
 ## Week 4
 
 ### Question 1
