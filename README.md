@@ -3,7 +3,13 @@ Homework for January 2025 Cohort of Data Engineering Zoomcamp \
 
 ## Week 5
 
+### Question 1
+
 spark.version = 3.4.4
+
+### Question 2
+
+23M -> 25MB
 
 ## Week 4
 
