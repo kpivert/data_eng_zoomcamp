@@ -17,7 +17,15 @@ spark.version = 3.4.4
 
 ### Question 4
 
-162.61777777777777
+162.61777777777777 
+
+### Question 5
+
+port 4040
+
+### Question 6
+
+
 
 ## Week 4
 
