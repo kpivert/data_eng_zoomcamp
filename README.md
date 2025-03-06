@@ -1,6 +1,10 @@
 # data_eng_zoomcamp
 Homework for January 2025 Cohort of Data Engineering Zoomcamp \
 
+## Week 5
+
+spark.version = 3.4.4
+
 ## Week 4
 
 ### Question 1
